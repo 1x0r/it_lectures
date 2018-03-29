@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{polyglossia}
+\usepackage{fontspec}
+\setmainlanguage{russian}
+\setotherlanguage{english}
+\defaultfontfeatures{Ligatures=TeX, Mapping=tex-text}
+\setmainfont{CMU Serif}
+
+\usepackage[left=1cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{lipsum}
+
+\usepackage{setspace}
+\usepackage{array}
+
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{wrapfigure}
+
+\captionsetup[figure]{name=Рисунок}
+
+\title{Лекция \textnumero2}
+\date{\today}
+\author{Д.\,Э.~Казарян}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\section{Sample}
+
+\begin{center}
+    \lipsum[1]
+\end{center}
+
+Посмотрите на таблицу \ref{t:sample}.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|b{0.25\textwidth}||cc|}
+        Header & h2 & h3 \\
+        0 & 1 & 2 \\
+        \cline{1-2}
+        1 & 3 & 4 \\
+    \end{tabular}
+    \caption{Caption example}
+    \label{t:sample}
+\end{table}
+
+\lipsum[2]
+
+\begin{wrapfigure}{r}{0.7\textwidth}
+     \centering
+     \reflectbox{\includegraphics[width=0.5\textwidth]{img/graph.png}}
+     \caption{Sample image}
+     \label{i:img1}
+\end{wrapfigure}
+
+\lipsum[3-10]
+
+\end{document}
