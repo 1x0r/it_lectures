@@ -50,3 +50,14 @@ Lecture 1
 ## Ссылка на изображение
 
 ![Alt text](https://www.google.ru/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+
+## Код
+
+Код в составе строки: `print("Hello world!")`
+
+```
+print("Hello world!")
+a = 0
+for i in range(100):
+    a += i
+```
