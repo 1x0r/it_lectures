@@ -55,7 +55,7 @@ Lecture 1
 
 Код в составе строки: `print("Hello world!")`
 
-```
+```python
 print("Hello world!")
 a = 0
 for i in range(100):
