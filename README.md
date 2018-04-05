@@ -47,3 +47,6 @@ Lecture 1
 [Google's page]: https://google.com
 [ссылка]: https://ya.ru
 
+## Ссылка на изображение
+
+![Alt text](https://www.google.ru/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
