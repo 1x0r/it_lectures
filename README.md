@@ -42,7 +42,7 @@ Lecture 1
 
 В этом тексте есть [ссылка], по которой можно перейти.
 
-[Внутренняя ссылка](blob/master/Lecture_02.tex)
+[Внутренняя ссылка](Lecture_02.tex)
 
 [Google's page]: https://google.com
 [ссылка]: https://ya.ru
